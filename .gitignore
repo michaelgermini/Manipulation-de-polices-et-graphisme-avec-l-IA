@@ -1,0 +1,98 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Fichiers de sauvegarde
+*~
+*.bak
+*.backup
+*.orig
+
+# Logs
+*.log
+logs/
+
+# Environnements virtuels Python
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE et éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Fichiers temporaires d'IA
+*.ai_temp
+*.midjourney_temp
+*.stable_diffusion_temp
+
+# Polices générées temporaires
+temp_fonts/
+generated_fonts/
+test_outputs/
+
+# Assets temporaires
+temp_assets/
+work_in_progress/
+
+# Fichiers de configuration sensibles
+.env
+config.ini
+secrets.json
+api_keys.txt
+
+# Fichiers de cache
+.cache/
+cache/
+
+# Fichiers de test
+test_results/
+validation_reports/
+
+# Documentation générée automatiquement
+docs/_build/
+site/
+
+# Fichiers macOS
+.AppleDouble
+.LSOverride
+
+# Fichiers Windows
+desktop.ini
+ehthumbs.db
+Icon?
+
+# Fichiers Linux
+*~
+
+# Fichiers spécifiques au projet
+# (Ajoutez ici des patterns spécifiques à votre projet)

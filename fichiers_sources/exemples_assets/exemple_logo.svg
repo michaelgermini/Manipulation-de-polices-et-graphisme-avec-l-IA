@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Exemple de logo vectoriel généré avec IA -->
+  <!-- Inspiré des prompts du chapitre 5 -->
+
+  <defs>
+    <!-- Dégradé pour effet de relief -->
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2E5B91;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A3A5C;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Ombre portée -->
+    <filter id="dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Forme principale du logo -->
+  <circle cx="100" cy="100" r="80" fill="url(#logoGradient)" filter="url(#dropShadow)"/>
+
+  <!-- Éléments typographiques stylisés -->
+  <text x="100" y="90" font-family="Arial, sans-serif" font-size="32" font-weight="bold"
+        text-anchor="middle" fill="white">ECO</text>
+  <text x="100" y="120" font-family="Arial, sans-serif" font-size="24" font-weight="normal"
+        text-anchor="middle" fill="#E8F4F8">TECH</text>
+
+  <!-- Éléments décoratifs -->
+  <path d="M 60 100 Q 100 60 140 100 Q 100 140 60 100"
+        stroke="#4A90E2" stroke-width="3" fill="none" opacity="0.7"/>
+  <circle cx="100" cy="100" r="20" fill="none" stroke="#7ED321" stroke-width="2"/>
+</svg>

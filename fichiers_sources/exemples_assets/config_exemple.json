@@ -1,0 +1,120 @@
+{
+  "projet": {
+    "nom": "Exemple de projet - EcoTech Solutions",
+    "description": "Identité visuelle pour une entreprise de technologies vertes",
+    "date_creation": "2024-10-26",
+    "version": "1.0"
+  },
+
+  "generation": {
+    "outils_ia": [
+      {
+        "nom": "Midjourney",
+        "version": "v5.2",
+        "parametres": {
+          "stylize": 600,
+          "chaos": 25,
+          "quality": 2
+        }
+      },
+      {
+        "nom": "Adobe Firefly",
+        "version": "2024",
+        "integration": "Creative Suite"
+      }
+    ],
+
+    "prompts_utilises": [
+      "Design a professional logo for a law firm, combining traditional serif typography with modern minimalist elements, trustworthy and established aesthetic",
+      "Create a custom typeface for [nom marque] optimized for [usage]",
+      "Generate a comprehensive color palette for EcoTech Solutions"
+    ]
+  },
+
+  "assets": {
+    "polices": [
+      {
+        "nom": "EcoTech-Regular",
+        "format": ["otf", "woff2", "ttf"],
+        "caracteres": "latin_extended",
+        "poids": [400, 500, 700],
+        "optimisations": ["web", "print", "variable"]
+      }
+    ],
+
+    "logos": [
+      {
+        "nom": "Logo principal",
+        "formats": ["svg", "pdf", "png"],
+        "variantes": ["horizontal", "vertical", "monochrome", "reverse"],
+        "tailles": ["16x16", "32x32", "256x256", "1024x1024"]
+      }
+    ],
+
+    "couleurs": {
+      "primaire": "#2E5B91",
+      "secondaires": ["#4A90E2", "#7ED321", "#F5A623"],
+      "neutres": ["#F8F9FA", "#6C757D", "#343A40"],
+      "contraste": "WCAG AA compliant"
+    }
+  },
+
+  "production": {
+    "formats_export": [
+      {
+        "type": "web",
+        "resolution": "72dpi",
+        "formats": ["svg", "png", "webp"],
+        "optimisations": ["compression", "lazy_loading"]
+      },
+      {
+        "type": "print",
+        "resolution": "300dpi",
+        "formats": ["pdf", "ai", "eps"],
+        "optimisations": ["cmyk", "bleed", "crop_marks"]
+      }
+    ],
+
+    "tests_validation": [
+      "accessibilite_contraste",
+      "lisibilite_polices",
+      "scalabilite_vectorielle",
+      "compatibilite_navigateurs"
+    ]
+  },
+
+  "metadonnees": {
+    "auteur": "Assistant IA + Designer",
+    "licence": "CC BY-SA 4.0",
+    "droit_usage": "Commercial avec attribution",
+    "date_modification": "2024-10-26T12:00:00Z",
+    "outils_utilises": [
+      "Midjourney v5.2",
+      "Adobe Illustrator 2024",
+      "FontForge 2024",
+      "Python scripts personnalisés"
+    ]
+  },
+
+  "distribution": {
+    "plateformes": [
+      {
+        "nom": "Site web",
+        "formats": ["svg", "woff2", "css"],
+        "optimisations": ["compression", "cdn_ready"]
+      },
+      {
+        "nom": "Réseaux sociaux",
+        "formats": ["png", "jpg"],
+        "tailles": ["1200x630", "1080x1080"],
+        "optimisations": ["social_optimization"]
+      },
+      {
+        "nom": "Print",
+        "formats": ["pdf", "ai"],
+        "resolution": "300dpi",
+        "optimisations": ["print_ready"]
+      }
+    ]
+  }
+}
