@@ -1,0 +1,357 @@
+{
+  "project": {
+    "name": "EcoFlow Solutions - Kit de communication print",
+    "type": "print_design",
+    "client": "EcoFlow Solutions SAS",
+    "industry": "green_technology",
+    "scope": "complete_print_package",
+    "budget": "medium",
+    "timeline": "4_weeks"
+  },
+
+  "print_specifications": {
+    "color_system": {
+      "mode": "CMYK",
+      "color_profile": "ISO_Coated_v2_300_eci.icc",
+      "spot_colors": [
+        {
+          "name": "EcoFlow Green",
+          "pantone": "PMS 7487 C",
+          "cmyk": "100, 0, 100, 0",
+          "usage": "primary_accent"
+        },
+        {
+          "name": "Tech Blue",
+          "pantone": "PMS 2925 C",
+          "cmyk": "100, 56, 0, 0",
+          "usage": "secondary_accent"
+        }
+      ],
+
+      "process_colors": {
+        "rich_black": "C60 M40 Y40 K100",
+        "neutral_grays": ["K10", "K20", "K30", "K40", "K50", "K60", "K70", "K80", "K90"]
+      }
+    },
+
+    "paper_specifications": {
+      "business_cards": {
+        "size": "85x55mm",
+        "paper": "350gsm_silk",
+        "finish": "matte_lamination_spot_uv",
+        "corners": "rounded_3mm",
+        "quantity": 1000
+      },
+
+      "brochures": {
+        "formats": [
+          {
+            "name": "A4_trifold",
+            "unfolded": "297x210mm",
+            "folded": "99x210mm",
+            "paper": "150gsm_gloss",
+            "pages": 6,
+            "quantity": 2000
+          },
+          {
+            "name": "A5_bifold",
+            "size": "148x210mm",
+            "paper": "120gsm_matte",
+            "pages": 8,
+            "quantity": 1500
+          }
+        ]
+      },
+
+      "posters": {
+        "sizes": ["A3", "A2", "A1", "A0"],
+        "paper": "150gsm_poster_paper",
+        "finish": "gloss_lamination",
+        "quantities": [100, 50, 25, 10]
+      },
+
+      "packaging": {
+        "product_box": {
+          "dimensions": "200x150x50mm",
+          "material": "300gsm_cardboard",
+          "print": "4_color_process_spot_uv",
+          "finish": "matte_anti_scratch"
+        },
+
+        "shipping_box": {
+          "dimensions": "400x300x200mm",
+          "material": "recycled_cardboard",
+          "print": "1_color_flexo",
+          "eco_friendly": true
+        }
+      }
+    },
+
+    "typography": {
+      "print_fonts": {
+        "headings": {
+          "family": "ModernGrotesk",
+          "sizes": ["72pt", "48pt", "36pt", "24pt"],
+          "tracking": "-20_to_+20"
+        },
+        "body": {
+          "family": "Crimson Text",
+          "sizes": ["18pt", "14pt", "12pt", "10pt"],
+          "leading": "120_percent_to_140_percent"
+        }
+      },
+
+      "font_embedding": {
+        "required": true,
+        "subsets": ["latin_extended", "cyrillic"],
+        "licensing": "print_commercial_license"
+      }
+    },
+
+    "layout_specifications": {
+      "bleed": "3mm_all_sides",
+      "safe_area": "5mm_from_edge",
+      "crop_marks": true,
+      "registration_marks": true,
+      "color_bars": true,
+
+      "grids": {
+        "baseline_grid": "6pt",
+        "column_grid": "12_columns",
+        "margin_system": "golden_ratio_based"
+      }
+    }
+  },
+
+  "design_assets": {
+    "logos": {
+      "print_optimized": {
+        "formats": ["ai", "eps", "pdf"],
+        "versions": ["full_color", "monochrome", "reverse", "grayscale"],
+        "resolutions": ["300dpi", "600dpi"],
+        "vector_only": true
+      }
+    },
+
+    "photography": {
+      "style_guide": "natural_professional",
+      "color_treatment": "slightly_desaturated",
+      "resolution": "300dpi_8bit_cmyk",
+      "formats": ["tiff", "jpeg"],
+      "retouching": ["color_correction", "sharpening", "noise_reduction"]
+    },
+
+    "illustrations": {
+      "technical_drawings": {
+        "style": "isometric_clean",
+        "colors": "limited_pantone_palette",
+        "line_weights": ["0.5pt", "1pt", "2pt"]
+      },
+
+      "diagrams": {
+        "clarity": "maximum_readability",
+        "annotations": "numbered_callouts",
+        "colors": "consistent_with_brand"
+      }
+    },
+
+    "patterns": {
+      "brand_patterns": [
+        "circuit_leaf_seamless",
+        "energy_wave_background",
+        "sustainability_grid"
+      ],
+      "repeat_sizes": ["5x5cm", "10x10cm", "20x20cm"],
+      "applications": ["backgrounds", "borders", "dividers"]
+    }
+  },
+
+  "production_files": {
+    "business_cards": {
+      "front_back": {
+        "artwork": "ecoflow_business_card_front.ai",
+        "dimensions": "88x58mm_with_bleed",
+        "colors": "4c_2_sides"
+      },
+      "die_cut": "rounded_corners_3mm",
+      "special_finishes": ["spot_uv_logo", "embossed_text"]
+    },
+
+    "brochures": {
+      "a4_trifold": {
+        "pages": [
+          {
+            "number": 1,
+            "content": "cover_company_overview",
+            "images": ["hero_technology.jpg", "logo_primary.svg"]
+          },
+          {
+            "number": 2,
+            "content": "services_benefits",
+            "images": ["process_diagram.svg", "team_photo.jpg"]
+          },
+          {
+            "number": 3,
+            "content": "case_studies_testimonials",
+            "images": ["success_chart.svg", "client_logos.svg"]
+          },
+          {
+            "number": 4,
+            "content": "contact_cta",
+            "images": ["contact_map.svg", "qr_code.svg"]
+          }
+        ],
+        "folding": "z_fold",
+        "finishing": "trim_fold_no_staple"
+      }
+    },
+
+    "posters": {
+      "a1_format": {
+        "purpose": "trade_show_display",
+        "key_message": "sustainable_technology_solutions",
+        "visual_hierarchy": "headline_60pt_subtitle_24pt_body_18pt",
+        "images": ["main_product_photo", "benefit_icons", "call_to_action"],
+        "finishing": "gloss_lamination_tube_pockets"
+      }
+    },
+
+    "packaging": {
+      "product_box": {
+        "panels": ["front", "back", "sides", "top", "bottom"],
+        "mandatory_elements": ["logo", "product_name", "specifications", "barcode", "legal_text"],
+        "design_style": "clean_minimalist",
+        "eco_messaging": "recycled_materials_100_percent_recyclable"
+      }
+    }
+  },
+
+  "quality_control": {
+    "preflight_checks": [
+      "color_separation_verification",
+      "font_embedding_validation",
+      "image_resolution_check",
+      "bleed_safe_area_inspection",
+      "spelling_grammar_review",
+      "legal_compliance_check"
+    ],
+
+    "proofing": {
+      "digital_proofs": "pdf_with_marks",
+      "color_proofs": "certified_chromalin",
+      "imposition_proofs": "folded_dummies",
+      "approval_workflow": "client_digital_approval"
+    },
+
+    "press_checks": {
+      "attendance": "required_first_run",
+      "color_matching": "pantone_reference",
+      "quality_standards": "iso_12647_compliant"
+    }
+  },
+
+  "delivery_specifications": {
+    "file_formats": [
+      {
+        "name": "adobe_illustrator",
+        "extension": "ai",
+        "version": "CC_2024",
+        "requirements": ["all_fonts_outlined", "cmyk_only", "300dpi_linked_images"]
+      },
+      {
+        "name": "high_resolution_pdf",
+        "extension": "pdf",
+        "standard": "PDF_X1a",
+        "requirements": ["embedded_fonts", "trim_marks", "bleed", "color_profile"]
+      },
+      {
+        "name": "production_pdf",
+        "extension": "pdf",
+        "standard": "PDF_X4",
+        "requirements": ["live_transparency", "spot_colors", "overprint"]
+      }
+    ],
+
+    "naming_convention": "ecoflow_[item]_[version]_[format]",
+    "version_control": {
+      "revisions": "numbered_v01_v02_v03",
+      "approval_dates": "included_in_filename",
+      "final_files": "marked_final"
+    }
+  },
+
+  "sustainability": {
+    "eco_friendly_options": {
+      "paper_choices": [
+        "100_percent_recycled",
+        "fsc_certified",
+        "carbon_neutral",
+        "tree_free_alternatives"
+      ],
+
+      "printing_methods": [
+        "vegetable_based_inks",
+        "waterless_printing",
+        "low_voc_finishes",
+        "energy_efficient_processes"
+      ],
+
+      "waste_reduction": [
+        "digital_proofing_only",
+        "optimized_cutting",
+        "recycling_program",
+        "carbon_offset"
+      ]
+    },
+
+    "certifications": [
+      "FSC_Chain_of_Custody",
+      "ISO_14001_Environmental",
+      "CarbonNeutral_Company"
+    ]
+  },
+
+  "budget_allocation": {
+    "design": "40_percent",
+    "production": "45_percent",
+    "finishing": "10_percent",
+    "delivery": "5_percent"
+  },
+
+  "timeline": {
+    "weeks": {
+      "1": {
+        "phase": "concept_development",
+        "deliverables": ["initial_concepts", "color_palette", "typography_selection"]
+      },
+      "2": {
+        "phase": "design_refinement",
+        "deliverables": ["all_artworks", "digital_proofs", "client_revisions"]
+      },
+      "3": {
+        "phase": "production_files",
+        "deliverables": ["print_ready_files", "color_proofs", "press_ready"]
+      },
+      "4": {
+        "phase": "delivery_quality_control",
+        "deliverables": ["final_print_run", "delivery", "post_project_review"]
+      }
+    }
+  },
+
+  "ai_assistance": {
+    "tools_used": [
+      "Midjourney_for_mood_boards",
+      "Adobe_Firefly_for_image_generation",
+      "Stable_Diffusion_for_pattern_creation"
+    ],
+
+    "ai_contribution": "30_percent_concepts_70_percent_human_refinement",
+
+    "originality": {
+      "custom_prompts": true,
+      "style_adaptation": true,
+      "brand_consistency": "maintained_throughout"
+    }
+  }
+}

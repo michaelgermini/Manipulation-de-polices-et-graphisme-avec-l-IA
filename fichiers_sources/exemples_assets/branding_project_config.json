@@ -1,0 +1,361 @@
+{
+  "project": {
+    "name": "EcoFlow Solutions - Identité visuelle complète",
+    "type": "branding_identity",
+    "client": "EcoFlow Solutions SAS",
+    "industry": "green_technology",
+    "scope": "complete_brand_identity",
+    "budget": "high",
+    "timeline": "6_weeks",
+    "deliverables": [
+      "logo_design",
+      "typography_system",
+      "color_palette",
+      "brand_guidelines",
+      "marketing_materials",
+      "digital_assets",
+      "packaging_design"
+    ]
+  },
+
+  "brand_strategy": {
+    "positioning": "innovative_sustainable_technology",
+    "target_audience": [
+      "sustainability_managers",
+      "cto_companies",
+      "environmental_consultants",
+      "green_investors"
+    ],
+    "key_messages": [
+      "innovation_meets_sustainability",
+      "technology_for_a_better_future",
+      "measurable_environmental_impact",
+      "reliable_green_solutions"
+    ],
+
+    "brand_personality": [
+      "innovative",
+      "reliable",
+      "sustainable",
+      "professional",
+      "forward_thinking"
+    ],
+
+    "competitors": [
+      "Siemens_Green",
+      "Schneider_Electric",
+      "ABB_Sustainability"
+    ]
+  },
+
+  "visual_identity": {
+    "color_system": {
+      "primary_palette": {
+        "ecoflow_green": {
+          "hex": "#2E7D32",
+          "rgb": "46, 125, 50",
+          "cmyk": "63, 0, 60, 51",
+          "hsl": "123, 46%, 34%",
+          "usage": "primary_brand_color"
+        },
+        "tech_blue": {
+          "hex": "#1565C0",
+          "rgb": "21, 101, 192",
+          "cmyk": "89, 47, 0, 25",
+          "hsl": "207, 80%, 42%",
+          "usage": "technology_accent"
+        },
+        "energy_yellow": {
+          "hex": "#FBC02D",
+          "rgb": "251, 192, 45",
+          "cmyk": "0, 23, 82, 2",
+          "hsl": "43, 96%, 58%",
+          "usage": "energy_highlight"
+        }
+      },
+
+      "neutral_palette": {
+        "charcoal": {"hex": "#263238", "usage": "primary_text"},
+        "slate": {"hex": "#546E7A", "usage": "secondary_text"},
+        "light_gray": {"hex": "#F5F5F5", "usage": "backgrounds"},
+        "white": {"hex": "#FFFFFF", "usage": "primary_background"}
+      },
+
+      "accessibility": {
+        "wcag_aa_compliant": true,
+        "contrast_ratios": {
+          "text_on_background": 12.5,
+          "accent_on_white": 8.3,
+          "primary_on_white": 6.7
+        }
+      }
+    },
+
+    "typography": {
+      "primary_font": {
+        "family": "ModernGroteskVF",
+        "style": "geometric_sans",
+        "weights": [300, 400, 500, 700],
+        "usage": "headings_and_ui"
+      },
+
+      "secondary_font": {
+        "family": "Crimson Text",
+        "style": "old_style_serif",
+        "weights": [400, 600],
+        "usage": "body_text_and_quotes"
+      },
+
+      "accent_font": {
+        "family": "Space Mono",
+        "style": "monospace",
+        "weights": [400, 700],
+        "usage": "code_and_data"
+      },
+
+      "hierarchy": {
+        "h1": {
+          "font": "ModernGroteskVF",
+          "size": "48px",
+          "weight": 700,
+          "line_height": 1.2,
+          "letter_spacing": "-0.02em"
+        },
+        "h2": {
+          "font": "ModernGroteskVF",
+          "size": "32px",
+          "weight": 600,
+          "line_height": 1.3,
+          "letter_spacing": "-0.01em"
+        },
+        "body": {
+          "font": "Crimson Text",
+          "size": "16px",
+          "weight": 400,
+          "line_height": 1.6,
+          "letter_spacing": "0.01em"
+        }
+      }
+    },
+
+    "logo_system": {
+      "primary_logo": {
+        "format": "horizontal",
+        "elements": ["icon", "wordmark"],
+        "colors": ["ecoflow_green", "tech_blue"],
+        "usage": "main_brand_representation"
+      },
+
+      "variants": [
+        {
+          "name": "vertical",
+          "orientation": "stacked",
+          "usage": "social_media"
+        },
+        {
+          "name": "icon_only",
+          "elements": ["icon"],
+          "usage": "favicon_app_icon"
+        },
+        {
+          "name": "monochrome",
+          "colors": ["charcoal"],
+          "usage": "print_documents"
+        }
+      ],
+
+      "clear_space": "1x_icon_height",
+      "minimum_size": "16px_digital_20mm_print"
+    }
+  },
+
+  "design_assets": {
+    "logo_files": [
+      "ecoflow_logo_primary.svg",
+      "ecoflow_logo_vertical.svg",
+      "ecoflow_logo_icon.svg",
+      "ecoflow_logo_monochrome.svg",
+      "ecoflow_logo_reverse.svg"
+    ],
+
+    "font_files": [
+      "ModernGroteskVF.woff2",
+      "CrimsonText-Regular.woff2",
+      "CrimsonText-SemiBold.woff2",
+      "SpaceMono-Regular.woff2"
+    ],
+
+    "color_swatches": [
+      "ecoflow_color_palette.ase",
+      "ecoflow_color_palette.aco",
+      "ecoflow_rgb_values.txt"
+    ],
+
+    "brand_patterns": [
+      "circuit_leaf_pattern.svg",
+      "energy_wave_pattern.svg",
+      "sustainability_grid.svg"
+    ]
+  },
+
+  "applications": {
+    "digital": {
+      "website": {
+        "components": ["header", "hero", "features", "testimonials", "footer"],
+        "responsive": true,
+        "performance": "optimized"
+      },
+
+      "social_media": {
+        "platforms": ["linkedin", "twitter", "instagram", "youtube"],
+        "formats": ["posts", "stories", "covers", "ads"],
+        "templates": "provided"
+      },
+
+      "email": {
+        "templates": ["newsletter", "product_update", "welcome"],
+        "responsive": true
+      }
+    },
+
+    "print": {
+      "business_cards": {
+        "size": "85x55mm",
+        "colors": "full_color_both_sides",
+        "finish": "matte_lamination"
+      },
+
+      "brochures": {
+        "formats": ["a4_trifold", "a5_bifold"],
+        "pages": [8, 12, 16],
+        "paper": "100gsm_silk"
+      },
+
+      "packaging": {
+        "types": ["product_box", "shipping_box", "display_stand"],
+        "materials": ["cardboard", "eco_friendly_options"]
+      }
+    },
+
+    "environmental": {
+      "signage": {
+        "interior": ["reception", "office_doors", "meeting_rooms"],
+        "exterior": ["building_sign", "directional_signs"]
+      },
+
+      "vehicles": {
+        "types": ["company_cars", "service_vans"],
+        "placement": "doors_and_hood"
+      }
+    }
+  },
+
+  "brand_guidelines": {
+    "structure": [
+      "introduction",
+      "logo_usage",
+      "color_system",
+      "typography",
+      "imagery_style",
+      "tone_of_voice",
+      "applications",
+      "do_and_dont"
+    ],
+
+    "formats": [
+      "digital_pdf_interactive",
+      "print_version",
+      "web_guidelines"
+    ],
+
+    "languages": ["french", "english"]
+  },
+
+  "implementation": {
+    "phases": [
+      {
+        "name": "research_strategy",
+        "duration": "1_week",
+        "deliverables": ["mood_boards", "competitor_analysis"]
+      },
+      {
+        "name": "visual_identity",
+        "duration": "2_weeks",
+        "deliverables": ["logo_concepts", "color_palette", "typography"]
+      },
+      {
+        "name": "asset_creation",
+        "duration": "2_weeks",
+        "deliverables": ["brand_assets", "templates", "mockups"]
+      },
+      {
+        "name": "guidelines_documentation",
+        "duration": "1_week",
+        "deliverables": ["brand_guidelines", "asset_library"]
+      }
+    ],
+
+    "quality_assurance": {
+      "accessibility_testing": true,
+      "cross_platform_testing": true,
+      "print_proofs": true,
+      "client_reviews": 3
+    }
+  },
+
+  "ai_generation": {
+    "tools_used": [
+      {
+        "name": "Midjourney",
+        "purpose": "concept_generation_mood_boards",
+        "prompts": 50
+      },
+      {
+        "name": "Stable_Diffusion",
+        "purpose": "logo_variations_texture_generation",
+        "models": ["sdxl_typography", "controlnet"]
+      },
+      {
+        "name": "Adobe_Firefly",
+        "purpose": "refinement_integration",
+        "features": ["generative_fill", "text_effects"]
+      }
+    ],
+
+    "ai_assistance_level": "70_percent_generated_30_percent_refined",
+
+    "ethical_considerations": {
+      "originality_verified": true,
+      "client_transparency": "full_disclosure",
+      "usage_rights": "commercial_license"
+    }
+  },
+
+  "delivery": {
+    "file_formats": [
+      "ai", "eps", "svg", "pdf", "png", "jpg",
+      "otf", "woff2", "css", "html",
+      "ase", "aco", "json"
+    ],
+
+    "organization": {
+      "folder_structure": "provided",
+      "naming_convention": "ecoflow_[asset_type]_[variant]_[format]",
+      "version_control": "git_repository"
+    },
+
+    "support": {
+      "training_session": "2_hours",
+      "documentation": "comprehensive",
+      "maintenance": "3_months_free"
+    }
+  },
+
+  "budget_breakdown": {
+    "concept_development": "25_percent",
+    "asset_creation": "40_percent",
+    "testing_validation": "15_percent",
+    "documentation_delivery": "10_percent",
+    "project_management": "10_percent"
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "project": {
+    "name": "TechFlow - Site web responsive",
+    "type": "website_redesign",
+    "client": "TechFlow Media",
+    "industry": "technology_media",
+    "platform": "web_react",
+    "budget": "medium",
+    "timeline": "8_weeks"
+  },
+
+  "technical_requirements": {
+    "platform": {
+      "framework": "React 18",
+      "styling": "CSS_Modules_SASS",
+      "build_tool": "Vite",
+      "deployment": "Vercel"
+    },
+
+    "performance": {
+      "target_lighthouse": 95,
+      "first_contentful_paint": "<1.5s",
+      "largest_contentful_paint": "<2.5s",
+      "cumulative_layout_shift": "<0.1",
+      "first_input_delay": "<100ms"
+    },
+
+    "responsive": {
+      "breakpoints": {
+        "mobile": "320px",
+        "tablet": "768px",
+        "desktop": "1024px",
+        "large": "1440px",
+        "xl": "1920px"
+      },
+
+      "grid_system": "CSS_Grid_Flexbox",
+      "mobile_first": true
+    },
+
+    "accessibility": {
+      "wcag_level": "AA",
+      "screen_reader": "optimized",
+      "keyboard_navigation": "full_support",
+      "color_contrast": "minimum_4.5:1"
+    },
+
+    "seo": {
+      "meta_tags": "comprehensive",
+      "structured_data": "json_ld",
+      "open_graph": "full_support",
+      "sitemap": "auto_generated"
+    }
+  },
+
+  "design_system": {
+    "colors": {
+      "brand": {
+        "primary": "#2563EB",
+        "secondary": "#10B981",
+        "accent": "#F59E0B",
+        "neutral": "#6B7280",
+        "success": "#059669",
+        "warning": "#D97706",
+        "error": "#DC2626"
+      },
+
+      "backgrounds": {
+        "primary": "#FFFFFF",
+        "secondary": "#F9FAFB",
+        "dark": "#111827",
+        "overlay": "rgba(0,0,0,0.5)"
+      },
+
+      "text": {
+        "primary": "#111827",
+        "secondary": "#6B7280",
+        "inverse": "#FFFFFF",
+        "disabled": "#9CA3AF"
+      }
+    },
+
+    "typography": {
+      "font_stack": {
+        "headings": "Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, sans-serif",
+        "monospace": "JetBrains Mono, monospace"
+      },
+
+      "scale": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "1.875rem",
+        "4xl": "2.25rem",
+        "5xl": "3rem"
+      },
+
+      "line_heights": {
+        "tight": 1.25,
+        "normal": 1.5,
+        "relaxed": 1.75
+      },
+
+      "letter_spacing": {
+        "tight": "-0.025em",
+        "normal": "0em",
+        "wide": "0.025em"
+      }
+    },
+
+    "spacing": {
+      "scale": [0, 4, 8, 12, 16, 20, 24, 32, 40, 48, 64, 80, 96, 128],
+      "containers": {
+        "sm": "640px",
+        "md": "768px",
+        "lg": "1024px",
+        "xl": "1280px",
+        "2xl": "1536px"
+      }
+    },
+
+    "components": {
+      "buttons": {
+        "variants": ["primary", "secondary", "outline", "ghost"],
+        "sizes": ["sm", "md", "lg"],
+        "states": ["default", "hover", "active", "disabled", "loading"]
+      },
+
+      "cards": {
+        "types": ["article", "feature", "testimonial", "product"],
+        "layouts": ["vertical", "horizontal", "grid"]
+      },
+
+      "navigation": {
+        "levels": ["primary", "secondary", "footer"],
+        "responsive": ["mobile_menu", "desktop_menu", "breadcrumb"]
+      }
+    }
+  },
+
+  "content_structure": {
+    "pages": [
+      {
+        "name": "home",
+        "sections": [
+          "hero",
+          "features",
+          "testimonials",
+          "pricing",
+          "cta"
+        ],
+        "layout": "single_column"
+      },
+      {
+        "name": "about",
+        "sections": [
+          "hero",
+          "story",
+          "team",
+          "values",
+          "careers"
+        ],
+        "layout": "two_column"
+      },
+      {
+        "name": "blog",
+        "sections": [
+          "header",
+          "featured_articles",
+          "article_grid",
+          "categories",
+          "newsletter"
+        ],
+        "layout": "masonry_grid"
+      },
+      {
+        "name": "contact",
+        "sections": [
+          "hero",
+          "contact_form",
+          "office_locations",
+          "social_links"
+        ],
+        "layout": "split_screen"
+      }
+    ],
+
+    "components": {
+      "hero": {
+        "content": ["headline", "subheading", "cta_buttons", "background_image"],
+        "animations": ["fade_in", "slide_up", "parallax"],
+        "responsive": ["mobile_optimized", "desktop_enhanced"]
+      },
+
+      "article_card": {
+        "elements": ["image", "title", "excerpt", "meta", "read_more"],
+        "interactions": ["hover_effects", "click_handlers"],
+        "states": ["default", "featured", "draft"]
+      }
+    }
+  },
+
+  "ai_generation": {
+    "hero_images": {
+      "prompts": [
+        "Modern technology workspace with clean design, blue and green color scheme, professional atmosphere",
+        "Abstract technology background with flowing data patterns, modern geometric elements",
+        "Team collaboration in tech environment, diverse professionals working together"
+      ],
+      "style": "photorealistic_modern",
+      "dimensions": "1920x1080"
+    },
+
+    "icons": {
+      "set": "technology_innovation",
+      "style": "outline_modern",
+      "sizes": ["16x16", "24x24", "32x32", "48x48"],
+      "formats": ["svg", "png", "react_components"]
+    },
+
+    "illustrations": {
+      "themes": ["data_flow", "ai_processing", "cloud_computing", "user_experience"],
+      "style": "isometric_modern",
+      "colors": "brand_palette"
+    }
+  },
+
+  "optimization": {
+    "images": {
+      "formats": ["WebP", "AVIF", "JPEG"],
+      "compression": {
+        "quality": 85,
+        "max_size": "500KB"
+      },
+      "responsive": ["srcset", "sizes", "picture_element"],
+      "lazy_loading": true
+    },
+
+    "fonts": {
+      "loading": "font_display_swap",
+      "preload": ["inter_400", "inter_600", "inter_700"],
+      "fallback": "system_ui_arial",
+      "variable_fonts": true
+    },
+
+    "css": {
+      "minification": true,
+      "unused_removal": true,
+      "critical_css": "inline_above_fold",
+      "compression": "gzip_brotli"
+    },
+
+    "javascript": {
+      "minification": true,
+      "tree_shaking": true,
+      "code_splitting": true,
+      "lazy_loading": true
+    }
+  },
+
+  "animations": {
+    "library": "Framer_Motion",
+    "types": [
+      "scroll_triggered",
+      "hover_interactions",
+      "page_transitions",
+      "loading_states"
+    ],
+
+    "performance": {
+      "reduced_motion": "respect_prefers_reduced_motion",
+      "gpu_accelerated": true,
+      "intersection_observer": true
+    },
+
+    "examples": {
+      "fade_in_up": "opacity_0_to_1_translateY_20_to_0",
+      "scale_hover": "scale_1_to_1.05",
+      "slide_in_left": "translateX_-100_to_0",
+      "rotate_3d": "rotateY_0_to_360"
+    }
+  },
+
+  "testing": {
+    "accessibility": {
+      "tools": ["axe_core", "wave", "lighthouse_a11y"],
+      "checkpoints": ["color_contrast", "keyboard_navigation", "screen_reader", "focus_management"]
+    },
+
+    "performance": {
+      "tools": ["lighthouse", "webpagetest", "gtmetrix"],
+      "metrics": ["fcp", "lcp", "cls", "fid", "ttfb"]
+    },
+
+    "cross_browser": {
+      "browsers": ["chrome", "firefox", "safari", "edge"],
+      "devices": ["mobile", "tablet", "desktop"],
+      "resolutions": ["320x568", "768x1024", "1920x1080"]
+    },
+
+    "user_experience": {
+      "usability_testing": true,
+      "heat_maps": true,
+      "a_b_testing": true,
+      "analytics": "google_analytics_gtm"
+    }
+  },
+
+  "deployment": {
+    "platform": "vercel",
+    "domains": [
+      "techflow.com",
+      "www.techflow.com",
+      "staging.techflow.com"
+    ],
+
+    "cdn": {
+      "provider": "cloudflare",
+      "optimization": ["image", "css", "js", "font"]
+    },
+
+    "ssl": {
+      "certificate": "lets_encrypt",
+      "hsts": true,
+      "security_headers": true
+    },
+
+    "monitoring": {
+      "uptime": "pingdom",
+      "performance": "datadog",
+      "errors": "sentry",
+      "analytics": "google_analytics"
+    }
+  },
+
+  "maintenance": {
+    "content_management": {
+      "cms": "headless_sanity",
+      "workflow": "git_based",
+      "preview": "staging_environment"
+    },
+
+    "updates": {
+      "dependencies": "automated",
+      "security_patches": "monthly",
+      "content_updates": "weekly",
+      "design_refinements": "quarterly"
+    },
+
+    "support": {
+      "technical": "24_7_monitoring",
+      "content": "business_hours",
+      "training": "documentation_videos"
+    }
+  },
+
+  "budget_allocation": {
+    "design": "30_percent",
+    "development": "40_percent",
+    "testing": "15_percent",
+    "deployment": "10_percent",
+    "maintenance": "5_percent"
+  }
+}
